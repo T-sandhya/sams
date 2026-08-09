@@ -8,7 +8,7 @@ const StoreContextProvider=(props)=>{
 
     const [cartItems,setCartItems] = useState({})
     const [food_list,setFoodList] = useState([])
-    const url='http://localhost:4000'
+    const url='https://sams-backend-otah.onrender.com'
     const [token,setToken] = useState("")
 
     const fetchFoodList = async()=>{
